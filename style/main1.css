@@ -1,0 +1,57 @@
+/***************公用类**************/
+
+/*清浮动*/
+.clearfix:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+/*清除浮动IE6兼容*/
+.clearfix {
+	zoom: 1;
+}
+
+/*左浮动*/
+.f1 {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+/*公共宽度*/
+.comWidth {
+	widows: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*左侧浮动*/
+.leftArea {
+	float: left;
+}
+
+.rightArea {
+	float: right;
+}
+
+/*顶部按钮*/
+.topBar {
+	height: 31px;
+	background-color: #F7F7F7;
+	line-height: 31px;
+}
+
+/*收藏*/
+.collection {
+	background: url(../images/icon/collection.png) left center no-repeat;
+	padding-left: 19px;
+	font-weight: bold;
+}
+
+.topBar {
+	height: 85px;
+	background: #1D7AD9;
+}
